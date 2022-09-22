@@ -1,0 +1,168 @@
+@font-face{
+	font-family: Nunito;
+	font-display: swap;
+	src: url("../fonts/Nunito-Black.woff2") format("woff2"), url("../fonts/Nunito-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+}
+@font-face{
+	font-family: Nunito-bolt-italic;
+	font-display: swap;
+	src: url("../fonts/Nunito-BlackItalic.woff2") format("woff2"), url("../fonts/Nunito-BlackItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Nunito-bold;
+	font-display: swap;
+	src: url("../fonts/Nunito-Bold.woff2") format("woff2"), url("../fonts/Nunito-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face{
+	font-family: Nunito-extra-bolt;
+	font-display: swap;
+	src: url("../fonts/Nunito-ExtraBold.woff2") format("woff2"), url("../fonts/Nunito-ExtraBold.woff") format("woff");
+	font-weight: 800;
+	font-style: normal;
+}
+@font-face{
+	font-family: Nunito;
+	font-display: swap;
+	src: url("../fonts/Nunito-BoldItalic.woff2") format("woff2"), url("../fonts/Nunito-BoldItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Nunito;
+	font-display: swap;
+	src: url("../fonts/Nunito-ExtraBoldItalic.woff2") format("woff2"), url("../fonts/Nunito-ExtraBoldItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Nunito;
+	font-display: swap;
+	src: url("../fonts/Nunito-Italic.woff2") format("woff2"), url("../fonts/Nunito-Italic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Nunito;
+	font-display: swap;
+	src: url("../fonts/Nunito-ExtraLightItalic.woff2") format("woff2"), url("../fonts/Nunito-ExtraLightItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Nunito;
+	font-display: swap;
+	src: url("../fonts/Nunito-ExtraLight.woff2") format("woff2"), url("../fonts/Nunito-ExtraLight.woff") format("woff");
+	font-weight: 200;
+	font-style: normal;
+}
+@font-face{
+	font-family: Nunito;
+	font-display: swap;
+	src: url("../fonts/Nunito-Light.woff2") format("woff2"), url("../fonts/Nunito-Light.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face{
+	font-family: Nunito;
+	font-display: swap;
+	src: url("../fonts/Nunito-LightItalic.woff2") format("woff2"), url("../fonts/Nunito-LightItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Nunito;
+	font-display: swap;
+	src: url("../fonts/Nunito-MediumItalic.woff2") format("woff2"), url("../fonts/Nunito-MediumItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Nunito-normal;
+	font-display: swap;
+	src: url("../fonts/Nunito-Regular.woff2") format("woff2"), url("../fonts/Nunito-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Nunito;
+	font-display: swap;
+	src: url("../fonts/Nunito-Medium.woff2") format("woff2"), url("../fonts/Nunito-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face{
+	font-family: Nunito;
+	font-display: swap;
+	src: url("../fonts/Nunito-SemiBoldItalic.woff2") format("woff2"), url("../fonts/Nunito-SemiBoldItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Ubuntu;
+	font-display: swap;
+	src: url("../fonts/Ubuntu-BoldItalic.woff2") format("woff2"), url("../fonts/Ubuntu-BoldItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Nunito;
+	font-display: swap;
+	src: url("../fonts/Nunito-SemiBold.woff2") format("woff2"), url("../fonts/Nunito-SemiBold.woff") format("woff");
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face{
+	font-family: Ubuntu;
+	font-display: swap;
+	src: url("../fonts/Ubuntu-Italic.woff2") format("woff2"), url("../fonts/Ubuntu-Italic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Ubuntu;
+	font-display: swap;
+	src: url("../fonts/Ubuntu-LightItalic.woff2") format("woff2"), url("../fonts/Ubuntu-LightItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Ubuntu;
+	font-display: swap;
+	src: url("../fonts/Ubuntu-Light.woff2") format("woff2"), url("../fonts/Ubuntu-Light.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face{
+	font-family: Ubuntu;
+	font-display: swap;
+	src: url("../fonts/Ubuntu-Medium.woff2") format("woff2"), url("../fonts/Ubuntu-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face{
+	font-family: Ubuntu;
+	font-display: swap;
+	src: url("../fonts/Ubuntu-Regular.woff2") format("woff2"), url("../fonts/Ubuntu-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Ubuntu;
+	font-display: swap;
+	src: url("../fonts/Ubuntu-MediumItalic.woff2") format("woff2"), url("../fonts/Ubuntu-MediumItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Ubuntu;
+	font-display: swap;
+	src: url("../fonts/Ubuntu-Bold.woff2") format("woff2"), url("../fonts/Ubuntu-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+}

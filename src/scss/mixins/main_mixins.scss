@@ -1,0 +1,15 @@
+@mixin _pc {
+  @media (max-width: 1200px){
+    @content;
+  }
+}
+@mixin _table {
+  @media (max-width: 992px){
+    @content;
+  }
+}
+@mixin _mob{
+  @media (max-width: 768px){
+    @content;
+  }
+}
