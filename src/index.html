@@ -8,21 +8,56 @@
 <body>
 
 <!-- Відгуки -->
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Launch demo modal
+</button>
 
-<div class="container">
-    <div class="row">
-        <div class="col-12"><h2>Відгуки про Щось там</h2></div>
-        <div class="col-12">
-            <img src="https://linework.com.ua/assets/img/teams/ola.png" alt="ola" class="img-fluid">
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Рахунок для сплати боргу:</h5>
+                <span class="exampleModalLabel_btn" type="button" data-bs-dismiss="modal" aria-label="Close">
+                    <span style="position: relative; top: 1px">Закрити</span> <img id="exampleModalLabel_closed" src="img/closed_icon.png" alt="">
+                </span>
+            </div>
+            <div class="modal-body">
+                <div class="modalWindows__content__text">
+                    <div class="modalWindows__content__text-p">
+                        <p>UA4344234324234324342343243434 в АТ КБ</p>
+                        <p>"ПРИВАТБАНК"</p>
+                        <p>отримувач: ПРИВАТНИЙ ПІДПРЕМЕЦЬ ПАЛАГІН О.П.</p>
+                        <p>ІНН. отримувача 2902914111</p>
+                        <p>призначення: кошти за ВП №</p>
+                    </div>
+                    <div class="modalWindows__content__text-p">
+                        <p>UA4344234324234324342343243434 в АТ КБ</p>
+                        <p>"ПРИВАТБАНК"</p>
+                        <p>отримувач: ПРИВАТНИЙ ПІДПРЕМЕЦЬ ПАЛАГІН О.П.</p>
+                        <p>ІНН. отримувача 2902914111</p>
+                        <p>призначення: кошти за ВП №</p>
+                    </div>
+                </div>
+                <div class="modalWindows__content__files">
+                    <div><a href="file.jpeg" download></a><span>Файл №1 про щось там</span></div>
+                    <div><a href="file.pdf" download></a><span>Файл №2</span></div>
+                    <div><a href="file.txt" download></a><span>Файл №3 про щось там</span></div>
+                </div>
+                <div class="modalWindows__content__files_title">
+                    <p>Натистніть на квитанцію, щоб завантажити її</p>
+                </div>
+                <div class="modalWindows__content__bank__title">
+                    <p>Сплатити он-лайн сервіс банку</p>
+                </div>
+                <div class="modalWindows__content__bank__img">
+                    <a href="#" target="_blank"><img src="img/pb24.png" alt="" class="img-fluid"></a>
+                    <a href="#" target="_blank"><img src="img/oshchad24.jpg" alt="" class="img-fluid"></a>
+                    <a href="#" target="_blank"><img src="img/rayfazen.jpg" alt="" class="img-fluid"></a>
+                    <a href="#" target="_blank"><img src="img/pumb.jpg" alt="" class="img-fluid"></a>
+                </div>
+            </div>
         </div>
-        <div class="col-12">
-            <h3>Olga Bielowa</h3>
-        </div>
-        <div class="col-12">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae consequuntur fuga, impedit tenetur vel!</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, aut consequuntur dolorem doloremque et excepturi fugit ipsam, ipsum nesciunt odio optio quibusdam reiciendis? Accusamus, corporis inventore iure sit soluta velit!</p>
-        </div>
-        <div class="col-12"><span></span></div>
     </div>
 </div>
 

@@ -3,16 +3,34 @@ flsFunctions.isWebP();
 
 /* global vars */
 
-let prdk_topIcon = {position: true}
-
 /* next Working */
 jQuery(function($) { // start jQuery
 
-    // кнопка плей в шапці
-    $(".topBlock__playIcon-icon").on('click', function () {
-        flsFunctions.changeIcon('bi bi-play', 'bi bi-stop', '#btnPlay', prdk_topIcon)
+    function getFileExtension(name)
+    {
+        let found = name.lastIndexOf('.') + 1;
+        return (found > 0 ? name.substr(found) : "");
+    }
+
+    $('.modalWindows__content__files a').each(function(i,elem) {
+        let elClass = $(this).attr('href');
+        let resultEx = getFileExtension(elClass);
+        if (resultEx == "png" || resultEx == "jpg" || resultEx == "jpeg" || resultEx == "gif")
+        {
+            $(this).addClass('prdk_icon_img');
+        }
+        else if (resultEx == 'pdf')
+        {
+            $(this).addClass('prdk_icon_pdf');
+        }
+        else {
+            $(this).addClass('prdk_icon_file');
+        }
     });
 
 
 }); // end jQuery
+
+
+
 
